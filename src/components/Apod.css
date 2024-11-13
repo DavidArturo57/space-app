@@ -1,0 +1,52 @@
+/* Apod.css */
+
+.apod-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(41, 234, 44);
+    border-radius: 91px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+}
+
+.apod-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.apod-title {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.apod-date {
+    font-size: 1.3rem; /* Tamaño de fuente más pequeño para el nombre de la nave */
+    color: #0b31cb; /* Color gris para el texto */
+    margin-top: 5px; /* Espacio encima del texto */
+    font-style: italic; /* Texto en cursiva */
+}
+
+.apod-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.loading {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+
+/*.apod-description {
+    font-size: 1rem;
+    color: #000000;
+    line-height: 2;
+}*/

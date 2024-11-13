@@ -1,0 +1,57 @@
+/* Astros.css */
+
+/* Contenedor principal que envuelve todas las tarjetas de astronautas */
+.astro-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias filas si es necesario */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Espacio interno alrededor de las tarjetas */
+    background-color: #00c4f5; /* Color de fondo suave */
+    margin-top: 50px; /* Añadimos un margen superior para separarlo de la barra de navegación */
+    padding-top: 20px;
+    position: relative;
+    top: 23px;
+}
+
+/* Estilo para cada tarjeta de astronauta */
+.astro-card {
+    background-color: rgb(41, 234, 44); /* Fondo blanco para las tarjetas */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las tarjetas */
+    width: 200px; /* Ancho fijo para las tarjetas */
+    padding: 15px; /* Espacio interno en la tarjeta */
+    text-align: center; /* Centra el texto */
+    transition: transform 0.3s ease-in-out; /* Animación suave para el hover  */
+    /*----ease-in-out:------ Especifica el tipo de aceleración de la transición. ease-in-out hará que la animación inicie y termine suavemente.*/
+}
+
+/* Efecto cuando se pasa el ratón sobre la tarjeta */
+.astro-card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño ligeramente al pasar el ratón */
+}
+
+/* Estilo para el nombre del astronauta */
+.astro-name {
+    font-size: 1.5rem; /* Tamaño de fuente grande para el nombre */
+    font-weight: bold; /* Pone el nombre en negrita */
+    color: #000000; /* Color azul para el nombre */
+    margin-bottom: 10px; /* Espacio debajo del nombre */
+}
+
+/* Estilo para la nave o estación a la que pertenece el astronauta */
+.astro-craft {
+    font-size: 1rem; /* Tamaño de fuente más pequeño para el nombre de la nave */
+    color: #0b31cb; /* Color gris para el texto */
+    margin-top: 5px; /* Espacio encima del texto */
+    font-style: italic; /* Texto en cursiva */
+}
+
+/* Estilo para el mensaje de carga cuando los datos aún no se han cargado */
+.loading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #3cd82e;
+    text-align: center;
+    margin-top: 50px;
+}

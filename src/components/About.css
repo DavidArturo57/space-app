@@ -1,0 +1,46 @@
+/* About.css */
+.about-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 91px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 60px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #000000;
+  }
+
+  p {
+    font-size: 15px;
+    color: #000000;
+  }
+  
+  .about-card {
+    /*display: flex; /* Para que la foto y la información estén en una fila */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 234, 44);
+    color: #000000;
+    padding: 1px;
+    border-radius: 51px;
+    margin: -5  0px;
+    max-width: 900px; /* Limita el ancho de la tarjeta */
+    flex-direction: column;    
+  }
+  
+  .about-foto {
+    width: 210px; /* Tamaño de la foto */
+    height: 210px;
+    margin-top: -25px;
+    
+    border-radius: 50%; /* Hace la imagen redonda */
+    /*object-fit: cover; /* Mantiene la proporción de la imagen */
+    
+  }
+  
+  
+  
